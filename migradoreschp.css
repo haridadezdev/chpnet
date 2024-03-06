@@ -1,0 +1,63 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4; /* Cor de fundo cinza claro */
+    color: #333; /* Cor do texto escuro */
+}
+
+header {
+    background-color: #3498db; /* Cor de fundo azul */
+    padding: 20px;
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    max-width: 150px;
+    height: auto;
+    margin-right: 20px;
+}
+
+.logo-text {
+    text-align: left;
+}
+
+.logo-text p {
+    margin: 0;
+    color: #fff; /* Cor do texto branco */
+}
+
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff; /* Cor de fundo branco */
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra suave */
+}
+
+h1, h2 {
+    color: #3498db; /* Cor do texto azul */
+}
+
+.folder ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.folder li {
+    margin-bottom: 10px;
+}
+
+.folder a {
+    text-decoration: none;
+    color: #3498db; /* Cor do texto azul para os links */
+}
+
+.folder a:hover {
+    color: #217dbb; /* Cor azul mais escuro ao passar o mouse sobre os links */
+}

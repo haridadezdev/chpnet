@@ -40,8 +40,12 @@ header {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra suave */
 }
 
-h1, h2 {
+h3 {
     color: #3498db; /* Cor do texto azul */
+}
+h1 {
+    color: #3498db; /* Cor do texto azul */
+    text-align: center;
 }
 
 .folder ul {
